@@ -70,11 +70,27 @@ padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 16px;
 padding-right: 16px;
-transition: opacity 0.15s;
 vertical-align: top;
-transition: border-radius,0.5s;
+transition: border-radius,0.15s;
+
+}
+
+.btn-join {
+font-family: Hind Siliguri;
+font-weight: 500;
+background-color: rgb(19, 122, 218);
+font-size: 15px;
+color: rgb(255, 255, 255);
+border:none;
+border-radius: 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 25px;
+box-shadow: 5px 5px 10px rgba(160, 199, 236, 0);
+  transition: box-shadow 0.15s;
 }
 
 .btn-join:hover {
-  border-radius: 100px;
+  box-shadow: 5px 5px 10px rgba(160, 199, 236, 0.966);
 }
