@@ -1,0 +1,81 @@
+.main-head {
+  background: #0d0414 url('https://wallpapershome.com/images/pages/pic_h/24098.jpeg'); 
+  padding-top: 24px;
+  background-size: cover;
+  height: 700px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome {
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.logo {
+  margin-top: -9px;
+ margin-left:403.5px;
+ height: 100px;
+}
+
+.main {
+  width: 100%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  color:white;
+}
+
+.sub-main {
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  font-family: Hind Siliguri;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.desc {
+  margin-top: 0;
+  text-align: center;
+  font-size: 15px;
+  font-family: Hind Siliguri;
+  font-weight: 400;
+}
+
+.join-btn {
+  text-align: center;
+}
+
+.btn-join {
+font-family: Hind Siliguri;
+font-weight: normal;
+background-color: rgb(255,255,255);
+color: rgb(0, 0, 0);
+border:none;
+border-radius: 5px;
+cursor: pointer;
+margin-right: 8px;
+margin-left: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16px;
+padding-right: 16px;
+transition: opacity 0.15s;
+vertical-align: top;
+transition: border-radius,0.5s;
+}
+
+.btn-join:hover {
+  border-radius: 100px;
+}
